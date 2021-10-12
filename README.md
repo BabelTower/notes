@@ -10,7 +10,7 @@
 ```
 
 ## logs
-- **2021/10/12** 添加了sidebar侧边栏、插件katex（用于支持数学公式的渲染）
+- **2021/10/12** 添加了sidebar侧边栏、插件katex（用于支持数学公式）、插件Prism（用于代码高亮）
 
 ## reference
 - 博客搭建使用的[教程1](https://zhuanlan.zhihu.com/p/101126727)、[教程2](https://zhuanlan.zhihu.com/p/70219397)
