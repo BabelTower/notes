@@ -13,8 +13,16 @@
   <script>
     window.$docsify = {
       name: '',
-      repo: '',
-      loadSidebar: true
+      repo: 'https://github.com/BabelTower',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      coverpage: true,
+      pagination: {
+        previousText: '上一章节',
+        nextText: '下一章节',
+        crossChapter: true,
+        crossChapterText: true,
+      },
     }
   </script>
   <!-- Docsify v4 -->
@@ -26,11 +34,8 @@
   <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
 
-  <!-- 代码高亮插件 -->
-  <script src="//unpkg.com/docsify"></script>
-  <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
-  <script src="//unpkg.com/prismjs/components/prism-php.js"></script>
-  <script src="//unpkg.com/prismjs/components/prism-python.js"></script>
+  <!-- 分页导航插件 -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
 </body>
 </html>
