@@ -5,3 +5,4 @@
   * [A Tutorial on Network Embeddings](papers/1808.02590.md)
 * Demos
   * [Linear Regression](demos/linear.md)
+  * [FashionMNIST](demos/mnist.md)

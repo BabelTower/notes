@@ -1,4 +1,14 @@
-# 线性回归
+# PyTorch实现Linear Regression
+
+## 总结
+
+手写线性回归，熟悉了一下tensor的一些基础操作。
+
+原文链接[线性回归](https://pytorch.zhangxiann.com/1-ji-ben-gai-nian/1.3-zhang-liang-cao-zuo-yu-xian-xing-hui-gui)，pyplot部分等学了matplot后再补。
+
+[range和list的区别](https://www.runoob.com/python3/python3-func-range.html)
+
+## 代码
 
 ```python
 import torch
