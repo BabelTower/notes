@@ -6,3 +6,5 @@
 * Demos
   * [Linear Regression](demos/linear.md)
   * [FashionMNIST](demos/mnist.md)
+* Math
+  * [Calculus](math/calculus.md)

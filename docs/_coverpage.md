@@ -10,7 +10,7 @@
 - 退役ACMer
 - PyTorch入门中
 
-[GitHub](https://github.com/BabelTower)
+[Blog](https://www.cnblogs.com/Waldeinsamkeit/)
 [Get Started](README.md)
 
 <!-- 背景图片 -->
