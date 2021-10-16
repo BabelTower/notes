@@ -13,3 +13,4 @@
 4. [python基础知识总结](https://zhuanlan.zhihu.com/p/56595142)
 5. [Numpy的详细教程](https://zhuanlan.zhihu.com/p/24988491)
 6. [PyTorch 学习笔记](https://pytorch.zhangxiann.com)
+
