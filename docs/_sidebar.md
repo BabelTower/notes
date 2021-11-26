@@ -8,4 +8,5 @@
   * [DCRNN](papers/dcrnn.md)
   * [图嵌入中文综述](papers/chinesesurvey.md)
 * [Projects](projects/README.md)
-  * [HAR模型波动率预测](projects/波动率预测.md)
+  * [HAR模型波动率预测](projects/volatility.md)
+
