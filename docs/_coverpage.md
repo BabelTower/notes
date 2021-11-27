@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-<img src="_media/icon.JPG" alt="logo" style="zoom:15%;" />
+<img src="_media/icon.png" alt="logo" style="zoom:25%;" />
 
 # Notes <small>学术</small>
 
