@@ -60,6 +60,35 @@
   <!-- or use this if you are not hosting the file yourself -->
   <script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>
 
-  
+  <!--Live-2D看板娘模型 -->
+  <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+
+  <!--Live-2D看板娘模型 -->
+  <script type="text/javascript">
+      //Live-2D看板娘模型
+      L2Dwidget.init({
+          model: {
+              //jsonpath控制显示那个小萝莉模型，下面这个就是我觉得最可爱的小萝莉模型 //hijiki  //izumi //shizuku //koharu
+              jsonPath: "https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json", //这里改模型，前面后面都要改
+              scale: 1,
+          },
+          display: {
+              position: "right", //设置看板娘的上下左右位置
+              width: 120,  //小萝莉的宽度
+              height: 200, //小萝莉的高度
+              hOffset: -50,  //水平偏移
+              vOffset: 200  //垂直偏移
+          },
+          mobile: {
+              show: false,  //在移动端不显示
+              scale: 0.4    //移动设备上的缩放
+          },
+          react: {
+              opacityDefault: 0.9, //设置透明度
+              opacityOnHover: 0.2
+          },
+      });
+</script>
+
 </body>
 </html>
