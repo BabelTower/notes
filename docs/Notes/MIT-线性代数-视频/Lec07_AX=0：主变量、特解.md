@@ -33,18 +33,18 @@ Date: 2021-12-02
 $$
 R=
 \left[
-\begin{array}{1}
+\begin{matrix}
 I & F \\
 0 & 0
-\end{array}
+\end{matrix}
 \right]
 \quad
 N=
 \left[
-\begin{array}{1}
+\begin{matrix}
 -F \\
 I
-\end{array}
+\end{matrix}
 \right]
 \quad
 R*N=0

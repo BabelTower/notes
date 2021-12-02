@@ -5,6 +5,10 @@ echo "|          [1] run local serve               |"
 echo "|                                            |"
 echo " --------------------------------------------"
 read -p "Enter number : " func_num
+
+rm -rf docs/
+cp -R /Users/fangzeyu/Documents/我的笔记 docs/
+rm -rf docs/.obsidian
 if [ $func_num -eq 0 ];
 then
 read -p "Enter commit name : " commit_name
