@@ -1,12 +1,12 @@
-<!-- docs/_sidebar.md -->
+<!-- _sidebar.md -->
 
 * [Home](README.md)
-* [Papers](papers/README.md)
-  * [A Tutorial on Network Embeddings](papers/1808.02590.md)
-  * [Network Representation Learning: A Survey](papers/2020.06.01.md)
-  * [STGCN](papers/stgcn.md)
-  * [DCRNN](papers/dcrnn.md)
-  * [图嵌入中文综述](papers/chinesesurvey.md)
-* [Projects](projects/README.md)
-  * [HAR模型波动率预测](projects/volatility.md)
+* [Notes](Notes/README.md)
+	* [浙大-机器学习-视频](Notes/浙大-机器学习-视频/README.md)
+		* [21-人工智能的第一次寒冬](Notes/浙大-机器学习-视频/21-人工智能的第一次寒冬.md)
+		* [22-多层神经网络](Notes/浙大-机器学习-视频/22-多层神经网络.md)
+		* [23-三层神经网络可以模拟所有的决策面](Notes/浙大-机器学习-视频/23-三层神经网络可以模拟所有的决策面.md)
+	* [MIT-线性代数-视频](Notes/MIT-线性代数-视频/README.md)
+		* [Lec07_AX=0：主变量、特解](Notes/MIT-线性代数-视频/Lec07_AX=0：主变量、特解.md)
+
 
