@@ -9,6 +9,10 @@ read -p "Enter number : " func_num
 rm -rf docs/
 cp -R /Users/fangzeyu/Documents/我的笔记 docs/
 rm -rf docs/.obsidian
+rm -rf docs/Papers
+rm -rf docs/Projects
+rm -rf docs/Day\ Planners
+
 if [ $func_num -eq 0 ];
 then
 read -p "Enter commit name : " commit_name
