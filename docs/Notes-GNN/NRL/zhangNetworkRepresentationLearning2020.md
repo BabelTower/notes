@@ -1,4 +1,5 @@
 # Network Representation Learning: A Survey
 
 ## 思维导图
-![NRL综述](./../_media/NRL_mind.png)
+
+![](assets/NRL_mind.png)
