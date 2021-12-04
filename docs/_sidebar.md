@@ -1,6 +1,6 @@
 <!-- _sidebar.md -->
 
-* [Home](README.md)
+* [主页](README.md)
 * [机器学习笔记](Notes-机器学习/README.md)
 	* [浙大-机器学习-视频](Notes-机器学习/浙大-机器学习-视频/README.md)
 		* [编程作业-SpeechDetection-SVM](Notes-机器学习/浙大-机器学习-视频/编程作业-SpeechDetection-SVM.md)
