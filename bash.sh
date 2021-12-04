@@ -4,6 +4,12 @@ echo "|          [0] update Github repo            |"
 echo "|          [1] run local serve               |"
 echo "|                                            |"
 echo " --------------------------------------------"
+
+if [$0 -eq 0]:
+then
+./push.sh $1
+fi
+
 read -p "Enter number : " func_num
 
 rm -rf docs/
