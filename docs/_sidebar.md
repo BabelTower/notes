@@ -11,5 +11,6 @@
 * 数学笔记
 	* [MIT-线性代数-视频](Notes-数学/MIT-线性代数-视频/README.md)
 		* [Lec07_AX=0：主变量、特解](Notes-数学/MIT-线性代数-视频/Lec07_AX=0：主变量、特解.md)
-
+* 工具
+	* [使用pandoc将markdown生成pdf]([生成pdf文件](工具/pandoc/生成pdf文件.md))
 
