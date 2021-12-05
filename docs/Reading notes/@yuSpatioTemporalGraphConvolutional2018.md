@@ -1,3 +1,9 @@
+---
+title: Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting
+authors: Bing Yu, Haoteng Yin, Zhanxing Zhu
+year: 2018
+---
+
 # Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting 时空图卷积网络
 
 ## 问题
@@ -71,5 +77,3 @@
 ## 相关阅读
 
 ### 1. https://zhuanlan.zhihu.com/p/286445515
-
-*XMind: ZEN - Trial Version*

@@ -2,4 +2,4 @@
 
 ## 思维导图
 
-![](assets/NRL_mind.png)
+![](../../Reading%20notes/assets/NRL_mind.png)

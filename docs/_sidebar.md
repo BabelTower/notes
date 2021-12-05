@@ -13,11 +13,11 @@
 		* [Lec07_AX=0：主变量、特解](Notes-数学/MIT-线性代数-视频/Lec07_AX=0：主变量、特解.md)
 * 工具
 	* [使用pandoc将markdown生成pdf](工具/pandoc/生成pdf文件.md)
-* [GNN文献笔记](Notes-GNN/README.md)
+* [GNN文献笔记](Reading%20notes/README.md)
 	* NRL
-		* [yangNetworkRepresentationLearning2017](Notes-GNN/NRL/yangNetworkRepresentationLearning2017.md)
-		* [chenTutorialNetworkEmbeddings2018](Notes-GNN/NRL/chenTutorialNetworkEmbeddings2018.md)
-		* [zhangNetworkRepresentationLearning2020](Notes-GNN/NRL/zhangNetworkRepresentationLearning2020.md)
+		* [@yangNetworkRepresentationLearning2017](Reading%20notes/@yangNetworkRepresentationLearning2017.md)
+		* [@chenTutorialNetworkEmbeddings2018](Reading%20notes/@chenTutorialNetworkEmbeddings2018.md)
+		* [@zhangNetworkRepresentationLearning2020](Reading%20notes/@zhangNetworkRepresentationLearning2020.md)
 	* STGNNs
-		* [liDIFFUSIONCONVOLUTIONALRECURRENT2018](Notes-GNN/STGNNs/liDIFFUSIONCONVOLUTIONALRECURRENT2018.md)
-		* [yuSpatioTemporalGraphConvolutional2018](Notes-GNN/STGNNs/yuSpatioTemporalGraphConvolutional2018.md)
+		* [@liDIFFUSIONCONVOLUTIONALRECURRENT2018](Reading%20notes/@liDIFFUSIONCONVOLUTIONALRECURRENT2018.md)
+		* [@yuSpatioTemporalGraphConvolutional2018](Reading%20notes/@yuSpatioTemporalGraphConvolutional2018.md)

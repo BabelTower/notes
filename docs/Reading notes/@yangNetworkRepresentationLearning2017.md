@@ -1,3 +1,9 @@
+---
+title: Network representation learning: an overview
+authors: Cheng Yang, Zhiyuan Liu, Cunchao Tu, Maosong Sun
+year: 2017
+---
+
 # 图嵌入中文综述
 
 ## 问题
