@@ -15,6 +15,9 @@
 		* [30-编程工具（Caffe和Tensorflow）](Notes-机器学习/浙大-机器学习-视频/30-编程工具（Caffe和Tensorflow）.md)
 		* [31-流行的网络结构](Notes-机器学习/浙大-机器学习-视频/31-流行的网络结构.md)
 		* [32-卷积神经网络的应用](Notes-机器学习/浙大-机器学习-视频/32-卷积神经网络的应用.md)
+		* [33-AlphaGo围棋规则](Notes-机器学习/浙大-机器学习-视频/33-AlphaGo围棋规则.md)
+		* [34-AlphaGo（围棋有必胜策略的证明）](Notes-机器学习/浙大-机器学习-视频/34-AlphaGo（围棋有必胜策略的证明）.md)
+		* [35-强化学习Q-learnig](Notes-机器学习/浙大-机器学习-视频/35-强化学习Q-learnig.md)
 		* [编程作业-SpeechDetection-SVM](Notes-机器学习/浙大-机器学习-视频/编程作业-SpeechDetection-SVM.md)
 * 数学笔记
 	* [MIT-线性代数-视频](Notes-数学/MIT-线性代数-视频/README.md)
