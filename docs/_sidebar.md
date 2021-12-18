@@ -18,14 +18,24 @@
 		* [33-AlphaGo围棋规则](Notes-机器学习/浙大-机器学习-视频/33-AlphaGo围棋规则.md)
 		* [34-AlphaGo（围棋有必胜策略的证明）](Notes-机器学习/浙大-机器学习-视频/34-AlphaGo（围棋有必胜策略的证明）.md)
 		* [35-强化学习Q-learnig](Notes-机器学习/浙大-机器学习-视频/35-强化学习Q-learnig.md)
+		* [36-强化学习（Policy Gradient）](Notes-机器学习/浙大-机器学习-视频/36-强化学习（Policy%20Gradient）.md)
+		* [37-增强学习AlphaGo](Notes-机器学习/浙大-机器学习-视频/37-增强学习AlphaGo.md)
 		* [编程作业-SpeechDetection-SVM](Notes-机器学习/浙大-机器学习-视频/编程作业-SpeechDetection-SVM.md)
 * 数学笔记
 	* [MIT-线性代数-视频](Notes-数学/MIT-线性代数-视频/README.md)
 		* [Lec07_AX=0：主变量、特解](Notes-数学/MIT-线性代数-视频/Lec07_AX=0：主变量、特解.md)
 		* [Lex08_AX=b：可解性及解的结构](Notes-数学/MIT-线性代数-视频/Lex08_AX=b：可解性及解的结构.md)
 		* [Lec09_线性相关性、基、维数](Notes-数学/MIT-线性代数-视频/Lec09_线性相关性、基、维数.md)
+		* [Lec10_四个基本子空间](Notes-数学/MIT-线性代数-视频/Lec10_四个基本子空间.md)
+		* [Lec11_矩阵空间、秩1矩阵和小世界图](Notes-数学/MIT-线性代数-视频/Lec11_矩阵空间、秩1矩阵和小世界图.md)
+		* [Lec12_图与网络](Notes-数学/MIT-线性代数-视频/Lec12_图与网络.md)
+		* [Lec13_复习](Notes-数学/MIT-线性代数-视频/Lec13_复习.md)
+		* [Lec14_正交向量和正交空间](Notes-数学/MIT-线性代数-视频/Lec14_正交向量和正交空间.md)
+		* [Lec15_投影](Notes-数学/MIT-线性代数-视频/Lec15_投影.md)
+		* [Lec16_投影矩阵和最小二乘法](Notes-数学/MIT-线性代数-视频/Lec16_投影矩阵和最小二乘法.md)
 * 工具
 	* [使用pandoc将markdown生成pdf](杂项/pandoc生成pdf文件.md)
+	* [Obsidian发布方案：Github Pages+Docsify](杂项/Obsidian发布方案：Github%20Pages+Docsify.md)
 * [GNN文献笔记](Reading%20notes/README.md)
 	* NRL
 		* [@yangNetworkRepresentationLearning2017](Reading%20notes/@yangNetworkRepresentationLearning2017.md)
@@ -34,3 +44,6 @@
 	* STGNNs
 		* [@liDIFFUSIONCONVOLUTIONALRECURRENT2018](Reading%20notes/@liDIFFUSIONCONVOLUTIONALRECURRENT2018.md)
 		* [@yuSpatioTemporalGraphConvolutional2018](Reading%20notes/@yuSpatioTemporalGraphConvolutional2018.md)
+	* Community Detection
+		* [@suComprehensiveSurveyCommunity2021](Reading%20notes/@suComprehensiveSurveyCommunity2021.md)
+
