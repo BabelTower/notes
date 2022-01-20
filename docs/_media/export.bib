@@ -111,6 +111,23 @@
   file = {/Users/fangzeyu/Zotero/storage/LPGT56V6/Bollerslev 等。 - 2016 - Exploiting the errors A simple approach for impro.pdf}
 }
 
+@article{caiEdgeClassificationBased2020,
+  title = {Edge Classification Based on {{Convolutional Neural Networks}} for Community Detection in Complex Network},
+  author = {Cai, Biao and Wang, Yanpeng and Zeng, Lina and Hu, Yanmei and Li, Hongjun},
+  date = {2020-10},
+  journaltitle = {Physica A: Statistical Mechanics and its Applications},
+  shortjournal = {Physica A: Statistical Mechanics and its Applications},
+  volume = {556},
+  pages = {124826},
+  issn = {03784371},
+  doi = {10.1016/j.physa.2020.124826},
+  url = {https://linkinghub.elsevier.com/retrieve/pii/S0378437120304271},
+  urldate = {2022-01-08},
+  abstract = {Community detection is a fundamental problem for many networks, and many methods have been proposed to resolve it. However, due to rapid increases in the scale and diversity of networks, the modular organization at the global level in many large networks is often extremely difficult to recognize. In this paper, we propose a new method based on deep learning on ground-truth communities, with the aim of revealing community structure in large real-world networks. The contributions of this paper are 1) proposing an edge-to-image (E2I) model that can transfer the edge structure to an image structure; 2) construction of a community network (ComNet) to classify the two types of edges, which are those in the same community and others between different communities; 3) making it easier to obtain local views of network communities by breadth-first search based on edge classification; and 4) merging preliminary communities with local modularity R, making it easy to optimize the community structure and obtain the final community structure of given networks. The experimental results show that the proposed edge classification method based on deep convolution neural networks can increase the accuracy of community structure evaluation compared with the existing methods in computer-generated networks and large-scale real-world networks.},
+  langid = {english},
+  file = {/Users/fangzeyu/Zotero/storage/ZDZ8L9Y3/Cai 等。 - 2020 - Edge classification based on Convolutional Neural .pdf}
+}
+
 @article{chakrabortyMetricsCommunityAnalysis2018,
   title = {Metrics for {{Community Analysis}}: {{A Survey}}},
   shorttitle = {Metrics for {{Community Analysis}}},
@@ -128,6 +145,16 @@
   abstract = {Detecting and analyzing dense groups or               communities               from social and information networks has attracted immense attention over the last decade due to its enormous applicability in different domains. Community detection is an               ill-defined problem               , as the nature of the communities is not known in advance. The problem has turned even more complicated due to the fact that communities emerge in the network in various forms such as disjoint, overlapping, and hierarchical. Various heuristics have been proposed to address these challenges, depending on the application in hand. All these heuristics have been materialized in the form of new               metrics               , which in most cases are used as optimization functions for detecting the community structure, or provide an indication of the goodness of detected communities during evaluation. Over the last decade, a large number of such metrics have been proposed. Thus, there arises a need for an organized and detailed survey of the metrics proposed for community detection and evaluation. Here, we present a survey of the start-of-the-art metrics used for the detection and the evaluation of community structure. We also conduct experiments on synthetic and real networks to present a comparative analysis of these metrics in measuring the goodness of the underlying community structure.},
   langid = {english},
   file = {/Users/fangzeyu/Zotero/storage/THM34YMC/Chakraborty 等。 - 2018 - Metrics for Community Analysis A Survey.pdf}
+}
+
+@article{chenSUPERVISEDCOMMUNITYDETECTION2019,
+  title = {{{SUPERVISED COMMUNITY DETECTION WITH LINE GRAPH NEURAL NETWORKS}}},
+  author = {Chen, Zhengdao and Bruna, Joan and Li, Lisha},
+  date = {2019},
+  pages = {23},
+  abstract = {Community detection in graphs can be solved via spectral methods or posterior inference under certain probabilistic graphical models. Focusing on random graph families such as the stochastic block model, recent research has unified both approaches and identified both statistical and computational detection thresholds in terms of the signal-to-noise ratio. By recasting community detection as a node-wise classification problem on graphs, we can also study it from a learning perspective. We present a novel family of Graph Neural Networks (GNNs) for solving community detection problems in a supervised learning setting. We show that, in a data-driven manner and without access to the underlying generative models, they can match or even surpass the performance of the belief propagation algorithm on binary and multiclass stochastic block models, which is believed to reach the computational threshold in these cases. In particular, we propose to augment GNNs with the non-backtracking operator defined on the line graph of edge adjacencies. The GNNs are achieved good performance on real-world datasets. In addition, we perform the first analysis of the optimization landscape of using (linear) GNNs to solve community detection problems, demonstrating that under certain simplifications and assumptions, the loss value at any local minimum is close to the loss value at the global minimum/minima.},
+  langid = {english},
+  file = {/Users/fangzeyu/Zotero/storage/T3QTXHRG/Chen 等。 - 2019 - SUPERVISED COMMUNITY DETECTION WITH LINE GRAPH NEU.pdf}
 }
 
 @online{chenTutorialNetworkEmbeddings2018,
@@ -237,6 +264,41 @@
   file = {/Users/fangzeyu/Zotero/storage/MBKLULPQ/Corsi 等。 - 2008 - The Volatility of Realized Volatility.pdf}
 }
 
+@inproceedings{cuiAdaptiveGraphEncoder2020,
+  title = {Adaptive {{Graph Encoder}} for {{Attributed Graph Embedding}}},
+  booktitle = {Proceedings of the 26th {{ACM SIGKDD International Conference}} on {{Knowledge Discovery}} \& {{Data Mining}}},
+  author = {Cui, Ganqu and Zhou, Jie and Yang, Cheng and Liu, Zhiyuan},
+  date = {2020-08-23},
+  pages = {976--985},
+  publisher = {{ACM}},
+  location = {{Virtual Event CA USA}},
+  doi = {10.1145/3394486.3403140},
+  url = {https://dl.acm.org/doi/10.1145/3394486.3403140},
+  urldate = {2022-01-08},
+  abstract = {Attributed graph embedding, which learns vector representations from graph topology and node features, is a challenging task for graph analysis. Recently, methods based on graph convolutional networks (GCNs) have made great progress on this task. However, existing GCN-based methods have three major drawbacks. Firstly, our experiments indicate that the entanglement of graph convolutional filters and weight matrices will harm both the performance and robustness. Secondly, we show that graph convolutional filters in these methods reveal to be special cases of generalized Laplacian smoothing filters, but they do not preserve optimal low-pass characteristics. Finally, the training objectives of existing algorithms are usually recovering the adjacency matrix or feature matrix, which are not always consistent with real-world applications. To address these issues, we propose Adaptive Graph Encoder (AGE), a novel attributed graph embedding framework. AGE consists of two modules: (1) To better alleviate the high-frequency noises in the node features, AGE first applies a carefully-designed Laplacian smoothing filter. (2) AGE employs an adaptive encoder that iteratively strengthens the filtered features for better node embeddings. We conduct experiments using four public benchmark datasets to validate AGE on node clustering and link prediction tasks. Experimental results show that AGE consistently outperforms state-of-the-art graph embedding methods considerably on these tasks.},
+  eventtitle = {{{KDD}} '20: {{The}} 26th {{ACM SIGKDD Conference}} on {{Knowledge Discovery}} and {{Data Mining}}},
+  isbn = {978-1-4503-7998-4},
+  langid = {english},
+  file = {/Users/fangzeyu/Zotero/storage/U8EWSREN/Cui 等。 - 2020 - Adaptive Graph Encoder for Attributed Graph Embedd.pdf}
+}
+
+@article{desantoDeepLearningApproach2021,
+  title = {A Deep Learning Approach for Semi-Supervised Community Detection in {{Online Social Networks}}},
+  author = {De Santo, Aniello and Galli, Antonio and Moscato, Vincenzo and Sperlì, Giancarlo},
+  date = {2021-10},
+  journaltitle = {Knowledge-Based Systems},
+  shortjournal = {Knowledge-Based Systems},
+  volume = {229},
+  pages = {107345},
+  issn = {09507051},
+  doi = {10.1016/j.knosys.2021.107345},
+  url = {https://linkinghub.elsevier.com/retrieve/pii/S0950705121006079},
+  urldate = {2022-01-08},
+  abstract = {Social Network Analysis (SNA) has gained popularity as a way to unveil and identify useful social patterns as communities among users. However the continuous, exponential growth of these networks (both in terms of number of users, and in terms of the variety of different interactions that these networks allow) has made the development of efficient and effective community detection techniques a challenging computational task. In this paper, we propose an innovative approach for Semi-supervised Community Detection, exploiting Convolutional Neural Networks to simultaneously leverage different properties of a network — such as topological and context information. Crucially, computational cost is optimized by building on the insight that representing network connections over particular sparse matrices can significantly decrease the number of operations that need to be explicitly performed. By extensively evaluating our system on large (artificial and real-world) datasets, we show that our approach outperforms a variety of existing state-of-the-art techniques in terms of running time, as well as over Macro− and Micro − F 1.},
+  langid = {english},
+  file = {/Users/fangzeyu/Zotero/storage/PPSDC7JF/De Santo 等。 - 2021 - A deep learning approach for semi-supervised commu.pdf}
+}
+
 @online{DownloadPdfFile,
   title = {Download\_pdf\_file.Pdf},
   url = {http://www.jos.org.cn/ch/reader/download_pdf_file.aspx?journal_id=jos&file_name=88D0BB702E5C1707DA216DE97314F1CF19E0198366EB5D1309DC629FE517217A3B304148F6C8D012&open_type=self&file_no=5697},
@@ -314,6 +376,15 @@
   file = {/Users/fangzeyu/Zotero/storage/6B78G7RH/fut.html}
 }
 
+@article{huGoingDeepGraph,
+  title = {Going {{Deep}}: {{Graph Convolutional Ladder-Shape Networks}}},
+  author = {Hu, Ruiqi and Pan, Shirui and Long, Guodong and Lu, Qinghua and Zhu, Liming and Jiang, Jing},
+  pages = {8},
+  abstract = {Neighborhood aggregation algorithms like spectral graph convolutional networks (GCNs) formulate graph convolutions as a symmetric Laplacian smoothing operation to aggregate the feature information of one node with that of its neighbors. While they have achieved great success in semisupervised node classification on graphs, current approaches suffer from the over-smoothing problem when the depth of the neural networks increases, which always leads to a noticeable degradation of performance. To solve this problem, we present graph convolutional ladder-shape networks (GCLN), a novel graph neural network architecture that transmits messages from shallow layers to deeper layers to overcome the over-smoothing problem and dramatically extend the scale of the neural networks with improved performance. We have validated the effectiveness of proposed GCLN at a node-wise level with a semi-supervised task (node classification) and an unsupervised task (node clustering), and at a graph-wise level with graph classification by applying a differentiable pooling operation. The proposed GCLN outperforms original GCNs, deep GCNs and other state-of-the-art GCN-based models for all three tasks, which were designed from various perspectives on six real-world benchmark data sets.},
+  langid = {english},
+  file = {/Users/fangzeyu/Zotero/storage/3ZJLR8A8/Hu 等。 - Going Deep Graph Convolutional Ladder-Shape Netwo.pdf}
+}
+
 @article{inclanUseCumulativeSums1994,
   title = {Use of {{Cumulative Sums}} of {{Squares}} for {{Retrospective Detection}} of {{Changes}} of {{Variance}}},
   author = {Inclán, Carla and Tiao, George C.},
@@ -380,6 +451,24 @@
   file = {/Users/fangzeyu/Zotero/storage/U2C8AQ6I/Jiang 和 Luo - 2021 - Graph Neural Network for Traffic Forecasting A Su.pdf;/Users/fangzeyu/Zotero/storage/UKT8Z5YT/2101.html}
 }
 
+@article{jinGraphConvolutionalNetworks2019,
+  title = {Graph {{Convolutional Networks Meet Markov Random Fields}}: {{Semi-Supervised Community Detection}} in {{Attribute Networks}}},
+  shorttitle = {Graph {{Convolutional Networks Meet Markov Random Fields}}},
+  author = {Jin, Di and Liu, Ziyang and Li, Weihao and He, Dongxiao and Zhang, Weixiong},
+  date = {2019-07-17},
+  journaltitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  shortjournal = {AAAI},
+  volume = {33},
+  pages = {152--159},
+  issn = {2374-3468, 2159-5399},
+  doi = {10.1609/aaai.v33i01.3301152},
+  url = {https://aaai.org/ojs/index.php/AAAI/article/view/3780},
+  urldate = {2022-01-08},
+  abstract = {Community detection is a fundamental problem in network science with various applications. The problem has attracted much attention and many approaches have been proposed. Among the existing approaches are the latest methods based on Graph Convolutional Networks (GCN) and on statistical modeling of Markov Random Fields (MRF). Here, we propose to integrate the techniques of GCN and MRF to solve the problem of semi-supervised community detection in attributed networks with semantic information. Our new method takes advantage of salient features of GNN and MRF and exploits both network topology and node semantic information in a complete end-to-end deep network architecture. Our extensive experiments demonstrate the superior performance of the new method over state-of-the-art methods and its scalability on several large benchmark problems.},
+  langid = {english},
+  file = {/Users/fangzeyu/Zotero/storage/N7T64CAE/Jin 等。 - 2019 - Graph Convolutional Networks Meet Markov Random Fi.pdf}
+}
+
 @article{khanNetworkCommunityDetection,
   title = {Network {{Community Detection}}: {{A Review}} and {{Visual Survey}}},
   author = {Khan, Bisma S and Niazi, Muaz A},
@@ -399,6 +488,25 @@
   abstract = {Community structure is an important area of research. It has received a considerable attention from the scientific community. Despite its importance, one of the key problems in locating information about community detection is the diverse spread of related articles across various disciplines. To the best of our knowledge, there is no current comprehensive review of recent literature which uses a scientometric analysis using complex networks analysis covering all relevant articles from the Web of Science (WoS). Here we present a visual survey of key literature using CiteSpace. The idea is to identify emerging trends besides using network techniques to examine the evolution of the domain. Towards that end, we identify the most influential, central, as well as active nodes using scientometric analyses. We examine authors, key articles, cited references, core subject categories, key journals, institutions, as well as countries. The exploration of the scientometric literature of the domain reveals that Yong Wang is a pivot node with the highest centrality. Additionally, we have observed that Mark Newman is the most highly cited author in the network. We have also identified that the journal, "Reviews of Modern Physics" has the strongest citation burst. In terms of cited documents, an article by Andrea Lancichinetti has the highest centrality score. We have also discovered that the origin of the key publications in this domain is from the United States. Whereas Scotland has the strongest and longest citation burst. Additionally, we have found that the categories of "Computer Science" and "Engineering" lead other categories based on frequency and centrality respectively.},
   langid = {english},
   file = {/Users/fangzeyu/Zotero/storage/VKRD6NHX/Khan 和 Niazi - 2017 - Network Community Detection A Review and Visual S.pdf;/Users/fangzeyu/Zotero/storage/U98ZTLSJ/1708.html}
+}
+
+@article{levieCayleyNetsGraphConvolutional2019,
+  title = {{{CayleyNets}}: {{Graph Convolutional Neural Networks With Complex Rational Spectral Filters}}},
+  shorttitle = {{{CayleyNets}}},
+  author = {Levie, Ron and Monti, Federico and Bresson, Xavier and Bronstein, Michael M.},
+  date = {2019-01-01},
+  journaltitle = {IEEE Transactions on Signal Processing},
+  shortjournal = {IEEE Trans. Signal Process.},
+  volume = {67},
+  number = {1},
+  pages = {97--109},
+  issn = {1053-587X, 1941-0476},
+  doi = {10.1109/TSP.2018.2879624},
+  url = {https://ieeexplore.ieee.org/document/8521593/},
+  urldate = {2022-01-08},
+  abstract = {The rise of graph-structured data such as social networks, regulatory networks, citation graphs, and functional brain networks, in combination with resounding success of deep learning in various applications, has brought the interest in generalizing deep learning models to non-Euclidean domains. In this paper, we introduce a new spectral domain convolutional architecture for deep learning on graphs. The core ingredient of our model is a new class of parametric rational complex functions (Cayley polynomials) allowing to efficiently compute spectral filters on graphs that specialize on frequency bands of interest. Our model generates rich spectral filters that are localized in space, scales linearly with the size of the input data for sparsely connected graphs, and can handle different constructions of Laplacian operators. Extensive experimental results show the superior performance of our approach, in comparison to other spectral domain convolutional architectures, on spectral image classification, community detection, vertex classification, and matrix completion tasks.},
+  langid = {english},
+  file = {/Users/fangzeyu/Zotero/storage/JXLVL3LM/Levie 等。 - 2019 - CayleyNets Graph Convolutional Neural Networks Wi.pdf}
 }
 
 @article{liDIFFUSIONCONVOLUTIONALRECURRENT2018,
@@ -441,6 +549,24 @@
   isbn = {978-0-9992411-6-5},
   langid = {english},
   file = {/Users/fangzeyu/Zotero/storage/HZDEDNTM/Liu 等。 - 2020 - Deep Learning for Community Detection Progress, C.pdf}
+}
+
+@article{liuIndependencePromotedGraph2020,
+  title = {Independence {{Promoted Graph Disentangled Networks}}},
+  author = {Liu, Yanbei and Wang, Xiao and Wu, Shu and Xiao, Zhitao},
+  date = {2020-04-03},
+  journaltitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  shortjournal = {AAAI},
+  volume = {34},
+  number = {04},
+  pages = {4916--4923},
+  issn = {2374-3468, 2159-5399},
+  doi = {10.1609/aaai.v34i04.5929},
+  url = {https://aaai.org/ojs/index.php/AAAI/article/view/5929},
+  urldate = {2022-01-08},
+  abstract = {We address the problem of disentangled representation learning with independent latent factors in graph convolutional networks (GCNs). The current methods usually learn node representation by describing its neighborhood as a perceptual whole in a holistic manner while ignoring the entanglement of the latent factors. However, a real-world graph is formed by the complex interaction of many latent factors (e.g., the same hobby, education or work in social network). While little effort has been made toward exploring the disentangled representation in GCNs. In this paper, we propose a novel Independence Promoted Graph Disentangled Networks (IPGDN) to learn disentangled node representation while enhancing the independence among node representations. In particular, we firstly present disentangled representation learning by neighborhood routing mechanism, and then employ the HilbertSchmidt Independence Criterion (HSIC) to enforce independence between the latent representations, which is effectively integrated into a graph convolutional framework as a regularizer at the output layer. Experimental studies on realworld graphs validate our model and demonstrate that our algorithms outperform the state-of-the-arts by a wide margin in different network applications, including semi-supervised graph classification, graph clustering and graph visualization.},
+  langid = {english},
+  file = {/Users/fangzeyu/Zotero/storage/E4BUVI8R/Liu 等。 - 2020 - Independence Promoted Graph Disentangled Networks.pdf}
 }
 
 @article{magnerVolatilityForecastingPower2020,
@@ -508,6 +634,34 @@
   file = {/Users/fangzeyu/Zotero/storage/6ZVL5JTT/Samel 和 Dovrolis - A Survey of Spatio-Temporal Graph Neural Networks .pdf}
 }
 
+@article{shchurOverlappingCommunityDetection2019,
+  title = {Overlapping {{Community Detection}} with {{Graph Neural Networks}}},
+  author = {Shchur, Oleksandr and Günnemann, Stephan},
+  date = {2019},
+  pages = {7},
+  abstract = {Community detection is a fundamental problem in machine learning. While deep learning has shown great promise in many graphrelated tasks, developing neural models for community detection has received surprisingly little attention. The few existing approaches focus on detecting disjoint communities, even though communities in real graphs are well known to be overlapping. We address this shortcoming and propose a graph neural network (GNN) based model for overlapping community detection. Despite its simplicity, our model outperforms the existing baselines by a large margin in the task of community recovery. We establish through an extensive experimental evaluation that the proposed model is effective, scalable and robust to hyperparameter settings. We also perform an ablation study that confirms that GNN is the key ingredient to the power of the proposed model. A reference implementation as well as the new datasets are available under https://tinyurl.com/dlg-nocd. ACM Reference Format: Oleksandr Shchur and Stephan Günnemann. 2019. Overlapping Community Detection with Graph Neural Networks. In Proceedings of The First International Workshop on Deep Learning for Graphs (DLG’19). ACM, New York, NY, USA, 7 pages.},
+  langid = {english},
+  file = {/Users/fangzeyu/Zotero/storage/FRF7R4DK/Shchur 和 Günnemann - 2019 - Overlapping Community Detection with Graph Neural .pdf}
+}
+
+@inproceedings{sperliDeepLearningBased2019,
+  title = {A Deep Learning Based Community Detection Approach},
+  booktitle = {Proceedings of the 34th {{ACM}}/{{SIGAPP Symposium}} on {{Applied Computing}}},
+  author = {Sperlí, Giancarlo},
+  date = {2019-04-08},
+  pages = {1107--1110},
+  publisher = {{ACM}},
+  location = {{Limassol Cyprus}},
+  doi = {10.1145/3297280.3297574},
+  url = {https://dl.acm.org/doi/10.1145/3297280.3297574},
+  urldate = {2022-01-08},
+  abstract = {Community Detection in On Line Social Networks is a classic feature in networked systems, from the fields of biology, economics, politics and computer science, as well. This paper describes a novel Community Detection method based on a deep learning approach, facing the challenging problems related to the dimensions of the involved data structures, and proposing a novel convolutional technique particularly useful for sparse matrices. Several experiments have been reported and discussed in real scenarios.},
+  eventtitle = {{{SAC}} '19: {{The}} 34th {{ACM}}/{{SIGAPP Symposium}} on {{Applied Computing}}},
+  isbn = {978-1-4503-5933-7},
+  langid = {english},
+  file = {/Users/fangzeyu/Zotero/storage/UHWRQDQL/Sperlí - 2019 - A deep learning based community detection approach.pdf}
+}
+
 @article{suComprehensiveSurveyCommunity2021,
   title = {A {{Comprehensive Survey}} on {{Community Detection}} with {{Deep Learning}}},
   author = {Su, Xing and Xue, Shan and Liu, Fanzhen and Wu, Jia and Yang, Jian and Zhou, Chuan and Hu, Wenbin and Paris, Cecile and Nepal, Surya and Jin, Di and Sheng, Quan Z. and Yu, Philip S.},
@@ -549,6 +703,23 @@
   langid = {english},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Computer Science - Social and Information Networks},
   file = {/Users/fangzeyu/Zotero/storage/FS9P3LEL/Su 等。 - 2021 - A Comprehensive Survey on Community Detection with.pdf}
+}
+
+@article{wangUnsupervisedLearningCommunity2021,
+  title = {Unsupervised Learning for Community Detection in Attributed Networks Based on Graph Convolutional Network},
+  author = {Wang, Xiaofeng and Li, Jianhua and Yang, Li and Mi, Hongmei},
+  date = {2021-10},
+  journaltitle = {Neurocomputing},
+  shortjournal = {Neurocomputing},
+  volume = {456},
+  pages = {147--155},
+  issn = {09252312},
+  doi = {10.1016/j.neucom.2021.05.058},
+  url = {https://linkinghub.elsevier.com/retrieve/pii/S0925231221008110},
+  urldate = {2022-01-08},
+  abstract = {Community detection has emerged during the last decade as one of the most challenging problems in network science, which has been revisited with network representation learning recently and has attracted considerable attention. Many approaches have been proposed in recent years, including the latest methods based on graph convolutional network (GCN). Here, we propose a new network representation learning method based on GCN for community detection in attributed networks without prior label information. Inspired by the message pass mechanism of GCN and the local self-organizing property of community structure, we integrate a label sampling model and GCN into an unsupervised learning framework to uncover underlying community structures by fusing topology and attribute information. The label sampling model constructs a balanced training set by structural center location and neighbor node expansion to train the GCN. The experiments on various real-world networks give a comparison view to evaluate the proposed method. The experimental results demonstrate the proposed method performs more efficiently with a comparative performance over current state-of-the-art community detection algorithms.},
+  langid = {english},
+  file = {/Users/fangzeyu/Zotero/storage/RW4YISNP/Wang 等。 - 2021 - Unsupervised learning for community detection in a.pdf}
 }
 
 @article{wenForecastingVolatilityCrude2016,
@@ -628,6 +799,23 @@
   file = {/Users/fangzeyu/Zotero/storage/3YBYRY4F/Wu 等。 - 2020 - Connecting the Dots Multivariate Time Series Fore.pdf}
 }
 
+@article{xinDeepCommunityDetection2017,
+  title = {Deep Community Detection in Topologically Incomplete Networks},
+  author = {Xin, Xin and Wang, Chaokun and Ying, Xiang and Wang, Boyang},
+  date = {2017-03},
+  journaltitle = {Physica A: Statistical Mechanics and its Applications},
+  shortjournal = {Physica A: Statistical Mechanics and its Applications},
+  volume = {469},
+  pages = {342--352},
+  issn = {03784371},
+  doi = {10.1016/j.physa.2016.11.029},
+  url = {https://linkinghub.elsevier.com/retrieve/pii/S0378437116308342},
+  urldate = {2022-01-08},
+  abstract = {In this paper, we consider the problem of detecting communities in topologically incomplete networks (TIN), which are usually observed from real-world networks and where some edges are missing. Existing approaches to community detection always consider the input network as connected. However, more or less, even nearly all, edges are missing in real-world applications, e.g. the protein-protein interaction networks. Clearly, it is a big challenge to effectively detect communities in these observed TIN.},
+  langid = {english},
+  file = {/Users/fangzeyu/Zotero/storage/4EM2ZAQF/Xin 等。 - 2017 - Deep community detection in topologically incomple.pdf}
+}
+
 @article{yangNetworkRepresentationLearning2017,
   title = {Network representation learning: an overview},
   shorttitle = {Network representation learning},
@@ -666,6 +854,42 @@
   file = {/Users/fangzeyu/Zotero/storage/SBTPH8LW/Yu 等。 - 2018 - Spatio-Temporal Graph Convolutional Networks A De.pdf}
 }
 
+@inproceedings{zhangAttributedGraphClustering2019,
+  title = {Attributed {{Graph Clustering}} via {{Adaptive Graph Convolution}}},
+  booktitle = {Proceedings of the {{Twenty-Eighth International Joint Conference}} on {{Artificial Intelligence}}},
+  author = {Zhang, Xiaotong and Liu, Han and Li, Qimai and Wu, Xiao-Ming},
+  date = {2019-08},
+  pages = {4327--4333},
+  publisher = {{International Joint Conferences on Artificial Intelligence Organization}},
+  location = {{Macao, China}},
+  doi = {10.24963/ijcai.2019/601},
+  url = {https://www.ijcai.org/proceedings/2019/601},
+  urldate = {2022-01-08},
+  abstract = {Attributed graph clustering is challenging as it requires joint modelling of graph structures and node attributes. Recent progress on graph convolutional networks has proved that graph convolution is effective in combining structural and content information, and several recent methods based on it have achieved promising clustering performance on some real attributed networks. However, there is limited understanding of how graph convolution affects clustering performance and how to properly use it to optimize performance for different graphs. Existing methods essentially use graph convolution of a fixed and low order that only takes into account neighbours within a few hops of each node, which underutilizes node relations and ignores the diversity of graphs. In this paper, we propose an adaptive graph convolution method for attributed graph clustering that exploits high-order graph convolution to capture global cluster structure and adaptively selects the appropriate order for different graphs. We establish the validity of our method by theoretical analysis and extensive experiments on benchmark datasets. Empirical results show that our method compares favourably with state-of-the-art methods.},
+  eventtitle = {Twenty-{{Eighth International Joint Conference}} on {{Artificial Intelligence}} \{\vphantom\}{{IJCAI-19}}\vphantom\{\}},
+  isbn = {978-0-9992411-4-1},
+  langid = {english},
+  file = {/Users/fangzeyu/Zotero/storage/ZNZTZDJK/Zhang 等。 - 2019 - Attributed Graph Clustering via Adaptive Graph Con.pdf}
+}
+
+@inproceedings{zhangCommDGICommunityDetection2020,
+  title = {{{CommDGI}}: {{Community Detection Oriented Deep Graph Infomax}}},
+  shorttitle = {{{CommDGI}}},
+  booktitle = {Proceedings of the 29th {{ACM International Conference}} on {{Information}} \& {{Knowledge Management}}},
+  author = {Zhang, Tianqi and Xiong, Yun and Zhang, Jiawei and Zhang, Yao and Jiao, Yizhu and Zhu, Yangyong},
+  date = {2020-10-19},
+  pages = {1843--1852},
+  publisher = {{ACM}},
+  location = {{Virtual Event Ireland}},
+  doi = {10.1145/3340531.3412042},
+  url = {https://dl.acm.org/doi/10.1145/3340531.3412042},
+  urldate = {2022-01-08},
+  eventtitle = {{{CIKM}} '20: {{The}} 29th {{ACM International Conference}} on {{Information}} and {{Knowledge Management}}},
+  isbn = {978-1-4503-6859-9},
+  langid = {english},
+  file = {/Users/fangzeyu/Zotero/storage/MEC3YX3A/Zhang 等。 - 2020 - CommDGI Community Detection Oriented Deep Graph I.pdf}
+}
+
 @article{zhangNetworkRepresentationLearning2020,
   title = {Network {{Representation Learning}}: {{A Survey}}},
   shorttitle = {Network {{Representation Learning}}},
@@ -684,6 +908,41 @@
   langid = {english},
   keywords = {survey},
   file = {/Users/fangzeyu/Zotero/storage/LG6XMTZ3/Zhang 等。 - 2020 - Network Representation Learning A Survey.pdf}
+}
+
+@article{zhangSpectralEmbeddingNetwork2021,
+  title = {Spectral Embedding Network for Attributed Graph Clustering},
+  author = {Zhang, Xiaotong and Liu, Han and Wu, Xiao-Ming and Zhang, Xianchao and Liu, Xinyue},
+  date = {2021-10},
+  journaltitle = {Neural Networks},
+  shortjournal = {Neural Networks},
+  volume = {142},
+  pages = {388--396},
+  issn = {08936080},
+  doi = {10.1016/j.neunet.2021.05.026},
+  url = {https://linkinghub.elsevier.com/retrieve/pii/S0893608021002227},
+  urldate = {2022-01-08},
+  abstract = {Attributed graph clustering aims to discover node groups by utilizing both graph structure and node features. Recent studies mostly adopt graph neural networks to learn node embeddings, then apply traditional clustering methods to obtain clusters. However, they usually suffer from the following issues: (1) they adopt original graph structure which is unfavorable for clustering due to its noise and sparsity problems; (2) they mainly utilize non-clustering driven losses that cannot well capture the global cluster structure, thus the learned embeddings are not sufficient for the downstream clustering task. In this paper, we propose a spectral embedding network for attributed graph clustering (SENet), which improves graph structure by leveraging the information of shared neighbors, and learns node embeddings with the help of a spectral clustering loss. By combining the original graph structure and shared neighbor based similarity, both the first-order and second-order proximities are encoded into the improved graph structure, thus alleviating the noise and sparsity issues. To make the spectral loss well adapt to attributed graphs, we integrate both structure and feature information into kernel matrix via a higher-order graph convolution. Experiments on benchmark attributed graphs show that SENet achieves superior performance over state-of-the-art methods.},
+  langid = {english},
+  file = {/Users/fangzeyu/Zotero/storage/RDJBW9HG/Zhang 等。 - 2021 - Spectral embedding network for attributed graph cl.pdf}
+}
+
+@inproceedings{zhaoGraphDebiasedContrastive2021,
+  title = {Graph {{Debiased Contrastive Learning}} with {{Joint Representation Clustering}}},
+  booktitle = {Proceedings of the {{Thirtieth International Joint Conference}} on {{Artificial Intelligence}}},
+  author = {Zhao, Han and Yang, Xu and Wang, Zhenru and Yang, Erkun and Deng, Cheng},
+  date = {2021-08},
+  pages = {3434--3440},
+  publisher = {{International Joint Conferences on Artificial Intelligence Organization}},
+  location = {{Montreal, Canada}},
+  doi = {10.24963/ijcai.2021/473},
+  url = {https://www.ijcai.org/proceedings/2021/473},
+  urldate = {2022-01-08},
+  abstract = {By contrasting positive-negative counterparts, graph contrastive learning has become a prominent technique for unsupervised graph representation learning. However, existing methods fail to consider the class information and will introduce false-negative samples in the random negative sampling, causing poor performance. To this end, we propose a graph debiased contrastive learning framework, which can jointly perform representation learning and clustering. Specifically, representations can be optimized by aligning with clustered class information, and simultaneously, the optimized representations can promote clustering, leading to more powerful representations and clustering results. More importantly, we randomly select negative samples from the clusters which are different from the positive sample’s cluster. In this way, as the supervisory signals, the clustering results can be utilized to effectively decrease the false-negative samples. Extensive experiments on five datasets demonstrate that our method achieves new state-of-the-art results on graph clustering and classification tasks.},
+  eventtitle = {Thirtieth {{International Joint Conference}} on {{Artificial Intelligence}} \{\vphantom\}{{IJCAI-21}}\vphantom\{\}},
+  isbn = {978-0-9992411-9-6},
+  langid = {english},
+  file = {/Users/fangzeyu/Zotero/storage/PGMFTWE8/Zhao 等。 - 2021 - Graph Debiased Contrastive Learning with Joint Rep.pdf}
 }
 
 
