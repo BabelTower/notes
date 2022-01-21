@@ -37,6 +37,7 @@
 - **2021/10/15** 添加了Prism插件（用于Python代码高亮）
 - **2021/11/27** 添加了代码复制、字数统计、PDF嵌入插件，更新了themecolor，添加live2d看板娘模型
 - **2021/12/02** 支持Obsidian编辑Markdown文档，再通过Github Pages发布，Docsify渲染
+- **2022/01/20** 添加了导航栏Navbar，访问量统计
 
 ## links
 相关资源汇总
@@ -44,4 +45,5 @@
 -   [我的Github示例项目](https://github.com/BabelTower/notes)
 -   docsify [教程1](https://zhuanlan.zhihu.com/p/101126727)、[教程2](https://zhuanlan.zhihu.com/p/70219397)
 -   obsidian [知乎精华回答](https://www.zhihu.com/topic/21349840/top-answers)
+-   [文档构建说明书](https://notebook.js.org/#/Project/Docsify/docsifyNotes?id=docsify-文档构建说明书)
 
