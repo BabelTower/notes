@@ -1,1 +1,1 @@
-* [数据挖掘](数据挖掘/README.md)
+* [README](数据挖掘/README.md)
