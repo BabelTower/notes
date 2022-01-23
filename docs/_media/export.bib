@@ -173,6 +173,25 @@
   file = {/Users/fangzeyu/Zotero/storage/UFLVYYED/Chen 等。 - 2018 - A Tutorial on Network Embeddings.pdf}
 }
 
+@article{chiangClusterGCNEfficientAlgorithm2019,
+  title = {Cluster-{{GCN}}: {{An Efficient Algorithm}} for {{Training Deep}} and {{Large Graph Convolutional Networks}}},
+  shorttitle = {Cluster-{{GCN}}},
+  author = {Chiang, Wei-Lin and Liu, Xuanqing and Si, Si and Li, Yang and Bengio, Samy and Hsieh, Cho-Jui},
+  date = {2019-07-25},
+  journaltitle = {Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+  eprint = {1905.07953},
+  eprinttype = {arxiv},
+  pages = {257--266},
+  doi = {10.1145/3292500.3330925},
+  url = {http://arxiv.org/abs/1905.07953},
+  urldate = {2022-01-23},
+  abstract = {Graph convolutional network (GCN) has been successfully applied to many graph-based applications; however, training a large-scale GCN remains challenging. Current SGD-based algorithms suffer from either a high computational cost that exponentially grows with number of GCN layers, or a large space requirement for keeping the entire graph and the embedding of each node in memory. In this paper, we propose Cluster-GCN, a novel GCN algorithm that is suitable for SGD-based training by exploiting the graph clustering structure. Cluster-GCN works as the following: at each step, it samples a block of nodes that associate with a dense subgraph identified by a graph clustering algorithm, and restricts the neighborhood search within this subgraph. This simple but effective strategy leads to significantly improved memory and computational efficiency while being able to achieve comparable test accuracy with previous algorithms. To test the scalability of our algorithm, we create a new Amazon2M data with 2 million nodes and 61 million edges which is more than 5 times larger than the previous largest publicly available dataset (Reddit). For training a 3-layer GCN on this data, Cluster-GCN is faster than the previous state-of-the-art VR-GCN (1523 seconds vs 1961 seconds) and using much less memory (2.2GB vs 11.2GB). Furthermore, for training 4 layer GCN on this data, our algorithm can finish in around 36 minutes while all the existing GCN training algorithms fail to train due to the out-of-memory issue. Furthermore, Cluster-GCN allows us to train much deeper GCN without much time and memory overhead, which leads to improved prediction accuracy—using a 5-layer Cluster-GCN, we achieve state-of-the-art test F1 score 99.36 on the PPI dataset, while the previous best result was 98.71 by [16]. Our codes are publicly available at https://github.com/google-research/google-research/ tree/master/cluster\_gcn.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {/Users/fangzeyu/Zotero/storage/9L6MFAPC/Chiang 等。 - 2019 - Cluster-GCN An Efficient Algorithm for Training D.pdf}
+}
+
 @article{chunaevCommunityDetectionNodeattributed2020,
   title = {Community Detection in Node-Attributed Social Networks: {{A}} Survey},
   shorttitle = {Community Detection in Node-Attributed Social Networks},
@@ -374,6 +393,22 @@
   langid = {english},
   annotation = {\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/fut.21867},
   file = {/Users/fangzeyu/Zotero/storage/6B78G7RH/fut.html}
+}
+
+@online{hamiltonInductiveRepresentationLearning2018,
+  title = {Inductive {{Representation Learning}} on {{Large Graphs}}},
+  author = {Hamilton, William L. and Ying, Rex and Leskovec, Jure},
+  date = {2018-09-10},
+  eprint = {1706.02216},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  url = {http://arxiv.org/abs/1706.02216},
+  urldate = {2022-01-23},
+  abstract = {Low-dimensional embeddings of nodes in large graphs have proved extremely useful in a variety of prediction tasks, from content recommendation to identifying protein functions. However, most existing approaches require that all nodes in the graph are present during training of the embeddings; these previous approaches are inherently transductive and do not naturally generalize to unseen nodes. Here we present GraphSAGE, a general inductive framework that leverages node feature information (e.g., text attributes) to efficiently generate node embeddings for previously unseen data. Instead of training individual embeddings for each node, we learn a function that generates embeddings by sampling and aggregating features from a node’s local neighborhood. Our algorithm outperforms strong baselines on three inductive node-classification benchmarks: we classify the category of unseen nodes in evolving information graphs based on citation and Reddit post data, and we show that our algorithm generalizes to completely unseen graphs using a multi-graph dataset of protein-protein interactions.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Machine Learning,Computer Science - Social and Information Networks,Statistics - Machine Learning},
+  file = {/Users/fangzeyu/Zotero/storage/3W7G23ER/Hamilton 等。 - 2018 - Inductive Representation Learning on Large Graphs.pdf}
 }
 
 @article{huGoingDeepGraph,
@@ -703,6 +738,22 @@
   langid = {english},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Computer Science - Social and Information Networks},
   file = {/Users/fangzeyu/Zotero/storage/FS9P3LEL/Su 等。 - 2021 - A Comprehensive Survey on Community Detection with.pdf}
+}
+
+@online{velickovicGraphAttentionNetworks2018,
+  title = {Graph {{Attention Networks}}},
+  author = {Veličković, Petar and Cucurull, Guillem and Casanova, Arantxa and Romero, Adriana and Liò, Pietro and Bengio, Yoshua},
+  date = {2018-02-04},
+  eprint = {1710.10903},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  url = {http://arxiv.org/abs/1710.10903},
+  urldate = {2022-01-23},
+  abstract = {We present graph attention networks (GATs), novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations. By stacking layers in which nodes are able to attend over their neighborhoods’ features, we enable (implicitly) specifying different weights to different nodes in a neighborhood, without requiring any kind of costly matrix operation (such as inversion) or depending on knowing the graph structure upfront. In this way, we address several key challenges of spectral-based graph neural networks simultaneously, and make our model readily applicable to inductive as well as transductive problems. Our GAT models have achieved or matched state-of-theart results across four established transductive and inductive graph benchmarks: the Cora, Citeseer and Pubmed citation network datasets, as well as a proteinprotein interaction dataset (wherein test graphs remain unseen during training).},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Computer Science - Social and Information Networks,Statistics - Machine Learning},
+  file = {/Users/fangzeyu/Zotero/storage/PPYJ4FXF/Veličković 等。 - 2018 - Graph Attention Networks.pdf}
 }
 
 @article{wangUnsupervisedLearningCommunity2021,
