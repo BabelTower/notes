@@ -38,6 +38,7 @@
 - **2021/11/27** 添加了代码复制、字数统计、PDF嵌入插件，更新了themecolor，添加live2d看板娘模型
 - **2021/12/02** 支持Obsidian编辑Markdown文档，再通过Github Pages发布，Docsify渲染
 - **2022/01/20** 添加了导航栏Navbar，访问量统计
+- **2022/01/25** 修改了live2d的位置和大小、搜索功能插件
 
 ## links
 相关资源汇总

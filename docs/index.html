@@ -37,6 +37,15 @@
         color:'rgb(90,90,90)',
         language:'chinese'
       },
+      search: {
+        paths: 'auto',
+        placeholder: '🔍 搜索',
+        noData: '😒 找不到结果',
+        // Headline depth, 1 - 6
+        depth: 6,
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+      },//添加搜索框
+
     }
   </script>
   <!-- Docsify v4 -->
@@ -67,6 +76,9 @@
   <!-- or use this if you are not hosting the file yourself -->
   <!-- <script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script> -->
 
+  <!-- 搜索功能 -->
+  <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/search.min.js"></script>
+
   <!-- 访问量统计 -->
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
@@ -84,10 +96,10 @@
           },
           display: {
               position: "right", //设置看板娘的上下左右位置
-              width: 120,  //小萝莉的宽度
-              height: 200, //小萝莉的高度
-              hOffset: -50,  //水平偏移
-              vOffset: 200  //垂直偏移
+              width: 60,  //小萝莉的宽度
+              height: 100, //小萝莉的高度
+              hOffset: 10,  //水平偏移
+              vOffset: -20  //垂直偏移
           },
           mobile: {
               show: false,  //在移动端不显示
