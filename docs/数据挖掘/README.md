@@ -5,3 +5,6 @@
 - DataCastle: http://www.pkbigdata.com/  
 - 滴滴: https://challenge.datacastle.cn/v3/cmptlist.html
 - 华为: http://codecraft.huawei.com/home/detail
+
+## 学习资源
+- [天池学习](https://tianchi.aliyun.com/course)
