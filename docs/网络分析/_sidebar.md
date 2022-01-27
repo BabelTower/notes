@@ -5,10 +5,10 @@
 * 术语
 	* [ground truth](网络分析/术语/ground%20truth.md)
 	* [机器学习模式](网络分析/术语/ML%20pattern.md)
-* 算法、模型、框架
-	* [spectral clustering](网络分析/术语/spectral%20clustering.md)
+* 算法、模型、框架	
 	* [GCN](网络分析/model/GCN.md)
 	* [GraphSAGE](网络分析/model/GraphSAGE.md)
 	* [GAT](网络分析/model/GAT.md)
-	* [DGL](网络分析/DGL.md)
+* [DGL](网络分析/DGL/README.md)
+	* [图](网络分析/DGL/图.md)
 	
