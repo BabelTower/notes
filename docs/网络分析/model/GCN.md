@@ -1,6 +1,14 @@
-GCN在《SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS》一文中所提出。
+GCN-3在《SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS》一文中所提出。
 
+节点分类是一个图的半监督学习，采用的损失函数有：
+$$
+\mathcal{L} = \mathcal{L}_0 + \lambda\mathcal{L}_reg, \quad with\quad 
+\mathcal{L}_reg=\sum_{i,j}{A_{ij}\Vert{f(X_i)-f(X_j)}\Vert^2}
+=f(X)^T\Delta f(X)
+$$
+这里假设了连接的节点有相似的标签，但实际情况中节点的边并不一定意味着相似性。
 
+GCN以$\mathcal{L}_0$为目标函数，训练$f(X,A)$学习节点表示。
 
 
 
@@ -15,3 +23,4 @@ GCN在《SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS》一�
 | 3    | [2020年，我终于决定入门GCN](https://zhuanlan.zhihu.com/p/112277874) |                                                              |
 | 4    | [如何理解 Graph Convolutional Network（GCN）？](https://www.zhihu.com/question/54504471/answer/611222866) |                                                              |
 | 5    | [GRAPH CONVOLUTIONAL NETWORKS](http://tkipf.github.io/graph-convolutional-networks/) |                                                              |
+| 6    | [【GNN】万字长文带你入门 GCN - 阿泽的文章 - 知乎]( https://zhuanlan.zhihu.com/p/120311352) | 图上卷积的思路：借助**谱图理论（Spectral Graph Theory）**来实现在拓扑图上的卷积操作，大致步骤为将空域中的拓扑图结构通过**傅立叶变换**映射到频域中并进行卷积，然后利用逆变换返回空域，从而完成了图卷积操作。<br />希尔伯特空间（Hilbert Space）是有限维欧几里得空间的一个推广，是一个完备的内积空间，其定义了一个带有内积的完备向量空间。在希尔伯空间中，一个抽象元素通常被称为向量，它可以是一个复数或者函数。傅立叶分析的一个重要目的是将一个给定的函数表示成一族给定的基底函数的和，而希尔伯特空间为傅立叶分析提供了一种有效的表述方式。 |
