@@ -10,5 +10,5 @@
 	* [GraphSAGE](网络分析/model/GraphSAGE.md)
 	* [GAT](网络分析/model/GAT.md)
 * [DGL](网络分析/DGL/README.md)
-	* [DGL实现GCN、GraphSAGE、GAT](网络分析/DGL/DGL实现GCN、GraphSAGE、GAT.md)
+	* [【论文复现】DGL框架构建图神经网络模型GCN、GAT、GraphSAGE｜实验目标：Cora数据集上实现节点分类](网络分析/DGL/【论文复现】DGL框架构建图神经网络模型GCN、GAT、GraphSAGE｜实验目标：Cora数据集上实现节点分类.md)
 	
