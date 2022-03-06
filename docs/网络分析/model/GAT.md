@@ -1,6 +1,10 @@
-$$
-z_i^{(l)}=W^{(l)}h_i^{(l)},  \\ e_{ij}^{(l)} = LeakyReLU(\vec{a}^{(l)^T}(z_i^{(l)}||z_j^{(l)})), \\ a_{ij}^{(l)} = \frac{exp(e_{ij}^{(l)})}{\sum_{k\in \mathcal{N}(i)}exp(e_{ik}^{(l)})}, \\ h_i^{(l+1)}=\sigma(\sum_{j\in \mathcal{N}(i)}a_{ij}^{(l)}z_j^{(l)})
-$$
+$z_i^{(l)}=W^{(l)}h_i^{(l)},$
+
+$e_{ij}^{(l)} = LeakyReLU(\vec{a}^{(l)^T}(z_i^{(l)}||z_j^{(l)})), $
+
+$a_{ij}^{(l)} = \frac{exp(e_{ij}^{(l)})}{\sum_{k\in \mathcal{N}(i)}exp(e_{ik}^{(l)})},$
+
+$h_i^{(l+1)}=\sigma(\sum_{j\in \mathcal{N}(i)}a_{ij}^{(l)}z_j^{(l)})$
 
 多头注意力机制(multi-head attention) 运用了类似ensemble的方法。
 

@@ -10,5 +10,5 @@
 	* [GraphSAGE](网络分析/model/GraphSAGE.md)
 	* [GAT](网络分析/model/GAT.md)
 * [DGL](网络分析/DGL/README.md)
-	* [图](网络分析/DGL/图.md)
+	* [DGL实现GCN、GraphSAGE、GAT](网络分析/DGL/DGL实现GCN、GraphSAGE、GAT.md)
 	

@@ -1,0 +1,1 @@
+mean average precision(MAP) 平均精度均值
