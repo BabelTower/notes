@@ -9,6 +9,8 @@
 	* [GCN](网络分析/model/GCN.md)
 	* [GraphSAGE](网络分析/model/GraphSAGE.md)
 	* [GAT](网络分析/model/GAT.md)
+	* [GraphCL代码解读｜UNSUPERVISED_CORA](网络分析/GraphCL代码解读｜UNSUPERVISED_CORA.md)
+	* [对比学习](网络分析/对比学习.md)
 * [DGL](网络分析/DGL/README.md)
 	* [【论文复现】DGL框架构建图神经网络模型GCN、GAT、GraphSAGE｜实验目标：Cora数据集上实现节点分类](网络分析/DGL/【论文复现】DGL框架构建图神经网络模型GCN、GAT、GraphSAGE｜实验目标：Cora数据集上实现节点分类.md)
 	
